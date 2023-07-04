@@ -37,7 +37,7 @@ def CONTRASEÑAS():
         if (contar_repeticiones_de_contraseña > 0) or (contar > 0):
             print("Ya posee una contraseña para eso")
         else:
-
+            
             abrir_y_escribir.write('\n' + para_que_es_la_contraseña + " Contraseña: " + contraseña_random)
             abrir_y_escribir.close()
 
@@ -50,4 +50,3 @@ def CONTRASEÑAS():
     escribir_contraseña(generar_contra())
 
 CONTRASEÑAS()
-
